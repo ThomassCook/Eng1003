@@ -6,9 +6,8 @@ int main()
     int k;
     float x;
     float y;
-    printf("Enter a number: ");
-    scanf("%f", &x); //y=k
-    y=9*x+32;
-    printf("y: %f\n", y); // Hello
+    printf("Enter an odd number:");
+    scanf("%f", &x);
+    y=2/x+200000;
+    printf("The answer of equation is: %f\n", y);
     return 0;
-}
